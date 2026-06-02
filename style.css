@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    background: #0f172a;
+    color: #f1f5f9;
+    padding: 10px 18px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#primeiro-nome p,
+#segundo-email p {
+    font-size: 18px;
+    color: #293b55;
+    margin-bottom: 10px;
+}
+
+#lista p {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#lista p:hover {
+    transform: translateY(-5px);
+    background: #e2e8f0;
+}
